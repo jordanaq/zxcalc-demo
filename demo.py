@@ -8,7 +8,7 @@ from circuit_generators import gen_default_circuit_options
 
 graph_options = gen_default_circuit_options()
 
-GRAPH_FIGSIZE = (12, 4)
+GRAPH_FIGSIZE = (10, 2)
 
 SIMPLIFICATION_STRATEGIES = {
     "No Simplification": zxs.id_simp,
